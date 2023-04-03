@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 30px ; 
+	margin : 0px; 
+}
+
+
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold ; 
+  text-align: center;
+}
+
+a {
+	text-decoration : none;
+  display: inline-block;
+  margin: 10px; 
+  text-align: center;
+  color: black;
+}
+
+p {
+  width: 1000px; 
+  margin : 20px auto;
+
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    background-color: #FDF9FA;
+  }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    background-color: #FDF9FA;
+  }
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    background-color: #FDF9FA;
+  }
+

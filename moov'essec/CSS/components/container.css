@@ -1,0 +1,12 @@
+.container{
+	width: 1000px; 
+	margin : 80px auto;
+}
+
+.cont2 {
+	background-color: #F0F0F2; 
+	margin: 80px auto;
+	box-sizing: border-box;
+	padding-bottom: 30px; 
+	padding-top: 30px;
+}
